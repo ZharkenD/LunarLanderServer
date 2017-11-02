@@ -1,0 +1,296 @@
+/*Elementos del cuerpo*/
+
+body,html{
+    height:100%;
+    padding:0px;
+    margin:0px;
+    background-image: url("../img/FV.png");
+    background-size: 15%;
+    font-family: 'Audiowide', cursive;
+    cursor: default;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/*Bloques principales*/
+
+.a{width:100%;height:90px;overflow:hidden;position:fixed;top:0px; z-index:3}
+.b{width:100%;height:100%;overflow:hidden;}
+/*Menu Oculto*/
+.c{background-image: url("../img/fondometal.png");
+     position:fixed;
+     top:0px;
+     bottom:0px;
+     left:0px;
+     right:0px;
+     display:none;
+     z-index:3}
+.d{
+    background-color: #787878;
+    background-image: url("../img/LUN001.png");
+    background-size: 55%;
+    background-repeat: repeat-x;
+    position:fixed;
+    bottom:0px;
+    height:7%;
+    width:100%
+}
+
+/*Estilos menu oculto*/
+
+.elementomenu{
+    display: block;
+    background-color: dodgerblue;
+    font-weight: bold;
+	font-size: 10vw;
+    text-align: center;
+    color: darkorange;
+    width: 82.5%;
+    border: 5px deepskyblue outset;
+    border-radius: 7px;
+    margin:15% auto;
+    overflow: hidden;   
+}
+
+/*Estilos elementos cpanel*/
+
+.textopanel{
+    font-family: 'Aldrich', sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+    border: 1.5px #595959 solid;
+    background-color: black;
+    color: lime;
+    padding: 0% 1%;
+}
+
+/*IMAGENES*/
+
+/*Nave*/
+
+#nave{text-align:center;position:fixed;top:16%;width:100%;height:20%;z-index:1}
+#naveimg{height:100%}
+
+/*Planeta*/
+
+#earth{   
+    position: fixed;
+    top: 25%;
+    right: 15%;
+    width: 30%;
+}
+
+/*Opciones*/
+
+#opcionesimg,#closeimg{
+    position:fixed;
+    top: 0%;
+    right: 0%;
+    width: 25%;
+}
+
+#restartimg{
+    position:fixed;
+    top: 0%;
+    left: 0%;
+    width: 25%;
+}
+
+/*MENUS*/
+
+/*Panel Control*/
+
+#cpanel{
+    background-image: url("../img/fondometal.png");
+    background-size: 25%;
+	position: fixed;
+    width: 68%;
+    padding: 1% 2%;
+    border: 3px #595959 solid;
+    border-radius: 7px;
+    top:0%;
+    left: 0%;
+    z-index: 3;
+}
+
+#menu {
+    
+    position:fixed;
+    width:100%;
+    top: 10%;
+}
+
+#hidem,#showm{float:right}
+
+
+/*Div emergentes*/
+
+.divEmergente{
+    
+    color: navy;
+    background-image: url("../img/fondometal.png");
+    position: fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    padding: 1% 4%;
+    z-index: 4;
+    display:none;
+}
+
+.divEmergente h1, .volverMovil{
+    font-family: 'Aldrich', sans-serif;
+    background-color: purple;
+    font-weight: bold;
+	font-size: 6vw;
+    text-align: center;
+    color: gold;
+    border: 5px darkorchid double;
+    border-radius: 6.5px;
+    width: 90%;
+    margin: 4% auto;
+    overflow: hidden;  
+}
+
+.volverMovil{
+    font-size: 5vw;
+    position: fixed;
+    margin: 0;
+    bottom: 5%;
+
+    
+}
+
+.divEmergente li,#rejugar,#bienvenidaJugar{
+    background-color: dodgerblue;
+    font-weight: bold;
+	font-size: 5.5vw;
+    text-align: center;
+    color: darkorange;
+    border: 5px deepskyblue outset;
+    margin: 1% auto;
+    overflow: hidden; 
+    width: 40%;
+    display: inline-block;
+}
+
+#bienvenidaJugar{
+    display: block;
+    margin: 3% auto;
+}
+
+.parrafosEmergentes{
+    background-color: black;
+    border: 3px #595959 solid;
+    color: lime;
+    padding: 0% 3%;
+    font-size: 5vw;
+}
+
+#parrafoBienvenida{
+    height:75%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/*Menu instrucciones*/
+
+#divinstrucciones .parrafosEmergentes{
+    font-family: 'Aldrich', sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    height:75%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/*Menu opciones*/
+
+#divopciones ul{
+    text-align: center;
+    margin: 0% auto;
+}
+
+#parrafoNivel{
+    margin: 1% auto;
+}
+
+
+
+/*Div About*/
+
+#divabout p{
+    font-size: 5vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Div fin juego*/
+#divFinJuego{
+    position: fixed;
+    width: 100%;
+    height: 30%;
+    padding: 1% 0;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-color: #595959;
+    top: 30%;
+    z-index: 2;
+}
+
+
+
+#parrafoFin{
+    margin: 5% 3%;
+}
+
+#rejugar{
+    width: 60%;
+    display: block;}
+
+/*ELEMENTOS ESPECIALES*/
+
+/*About*/
+
+#about{
+    position:fixed;
+    bottom: 5%;
+    left: 8.75%;
+    background-color: darkgray;
+    bottom: 0%;
+    color: white;
+    border: 5px silver outset;
+    font-size: 8.5vw;
+}
+
+/*Texto "instrucciones" en el menu oculto*/
+
+#instruction{
+    font-size: 8.75vw;
+}
+
+/*Todos los elementos pc no se ven*/
+
+.pc{display:none}
+
+#facilNivel, #naveOpcion, #lunaOpcion{
+    text-decoration: underline;
+    background-color: midnightblue;
+    color:crimson;
+    border: 5px royalblue outset; 
+
+}
+
+#play{display: none}
+
+#opcionesParaMovil{
+    height:80%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}

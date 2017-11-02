@@ -1,0 +1,259 @@
+/*Elementos del cuerpo*/
+
+body,html{
+    height:100%;
+    padding:0px;
+    margin:0px;
+    background-image: url("../img/FH.png");
+    background-size: 6%; 
+    font-family: 'Audiowide', cursive;
+    cursor: default;   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+/*Bloques principales*/
+
+.c{display:block !important}
+.a,.b{display:inline-block;width:33.33%;height:100%;float:left;}
+
+.d{
+    background-color: #787878;
+    background-image: url("../img/LUN001.png");
+    background-size: 17%;
+    background-repeat: repeat-x;
+    height:7%;
+    width:100%;
+    position:fixed;
+    bottom:0px
+}
+
+/*Estilos menu superior*/
+
+.elementomenu {
+    display: block;
+    background-color: dodgerblue;
+    font-weight: bold;
+	font-size: 2.5vw;
+    text-align: center;
+    color: darkorange;
+    float:left;
+    width: 24%;
+    border: 5px deepskyblue outset;
+    border-radius: 7px;
+    margin:0;
+    overflow: hidden;   
+}
+
+.elementomenu:hover, .divEmergente li:hover,#rejugar:hover {
+    background-color: midnightblue;
+    color:crimson;
+    border: 5px royalblue outset;  
+}
+
+/*Estilos elementos cpanel*/
+
+.textopanel{
+    font-family: 'Aldrich', sans-serif;
+    font-size: 1.75vw;
+    font-weight: bold;
+    border: 5px #595959 solid;
+    background-color: black;
+    color: lime;
+    padding: 0% 1%;
+}
+
+/*Div emergentes*/
+
+.divEmergente{
+
+    color: navy;
+    background-image: url("../img/fondometal.png");
+    background-size: 7.5%;
+    position: fixed;
+    width: 60%;
+    padding: 1% 5%;
+    border: 5px #595959 solid;
+    border-radius: 7px;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    display:none;
+}
+
+.divEmergente h1{
+    font-family: 'Aldrich', sans-serif;
+    background-color: purple;
+    font-weight: bold;
+	font-size: 2.5vw;
+    text-align: center;
+    color: gold;
+    border: 5px darkorchid double;
+    border-radius: 7px;
+    width: 50%;
+    margin: 1% auto;
+    overflow: hidden;  
+}
+
+.divEmergente li,#rejugar, #bienvenidaJugar{
+    background-color: dodgerblue;
+    font-weight: bold;
+	font-size: 1.75vw;
+    text-align: center;
+    color: darkorange;
+    border: 5px deepskyblue outset;
+    margin: 1% auto;
+    overflow: hidden; 
+}
+
+.listaPausa{
+    display:block;
+    width: 35%;
+}
+
+.listaOpciones{
+    display:inline-block;
+    width: 25%;
+}
+
+.parrafosEmergentes{
+    background-color: black;
+    border: 5px #595959 solid;
+    color: lime;
+    padding: 0% 3%;
+}
+
+/*MENUS*/
+
+/*Panel Control*/
+#cpanel{
+    background-image: url("../img/fondometal.png");
+    background-size: 25%;
+	position: fixed;
+    width: 23%;
+    padding: 1% 2%;
+    border: 5px #595959 solid;
+    border-radius: 7px;
+    top:13%;
+    left: 5%;
+}
+
+/*Menu superior*/
+
+#menu {
+    
+    position:fixed;
+    width:100%;
+    top: 0%;
+    z-index: 2;
+}
+
+#hidem,#showm{display:none}
+
+/*Menu bienvenida*/
+#divBienvenida p, #divinstrucciones p, #parrafosAbout{
+    font-family: 'Aldrich', sans-serif;
+    font-size: 1.75vw;
+    text-align: justify;
+    font-weight: bold;
+}
+
+#divBienvenida h1{
+    width: 60%;
+}
+
+#bienvenidaJugar {
+    width:50%;
+}
+
+
+
+/*Menu opciones*/
+
+#divopciones{
+    width: 80%;
+}
+
+#divopciones ul{
+    text-align: center;
+    margin: 0% auto;
+}
+
+#parrafoNivel{
+    font-size: 1.5vw;
+}
+
+/*Div About*/
+
+#divabout p{
+    font-size: 1.75vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Div Fin juego*/
+#divFinJuego{
+    z-index: 2;
+}
+
+#parrafoFin{
+    margin: 3%;
+    font-size: 1.6vw;
+}
+
+#rejugar{width: 35%}
+
+/*IMAGENES*/
+
+/*Nave*/
+
+#nave{text-align:center;position:fixed;top:16%;width:100%;height:20%;z-index:1}
+#naveimg{height:100%;}
+
+/*Planeta*/
+
+#earth{   
+    position: fixed;
+    top: 20%;
+    right: 8%;
+    width: 18%;
+}
+
+/*ELEMENTOS ESPECIALES*/
+
+/*About*/
+
+#about{
+    background-color: darkgray;
+    color: white;
+    float:right;
+    width: 19.5%;
+    border: 5px silver outset;
+}
+
+#about:hover{
+    background-color: black;
+    color: darkgray;
+    float:right;
+    width: 19.5%;
+    border: 5px slategray outset;
+}
+
+/*Todos los elementos movil no se ven*/
+
+.movil, .volverMovil{display:none}
+
+/*Elementos subrayados en menu opciones*/
+#facilNivel, #naveOpcion, #lunaOpcion{
+    text-decoration: underline;
+    background-color: midnightblue;
+    color:crimson;
+    border: 5px royalblue outset;  
+}
